@@ -1,0 +1,45 @@
+* {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.swiper-button-prev,.swiper-button-next{scale: 0.5;
+  color: white !important;
+  background: rgba(128, 128, 128, 0.573);
+  clip-path: circle(40%);
+  filter: blur(0);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 40px;}
+
+ .swiper-button-next:hover{
+
+    color: white !important;
+    background: rgb(95, 94, 94);
+    clip-path: circle(40%);
+    filter: blur(0);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 40px;
+  }
+  .swiper-button-prev:hover{
+    
+    color: white !important;
+    background: rgb(95, 94, 94);
+    clip-path: circle(40%);
+    filter: blur(0);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 40px;
+  }
+
+  .lucide-cart:hover{
+    color: cyan !important;
+  }
+  @media screen and (max-width: 768px) {
+    .swiper-button-prev,.swiper-button-next{scale: 0.4;
+      color: white !important;
+      background: rgba(128, 128, 128, 0.836);
+      clip-path: circle(40%);
+      filter: blur(0);
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      padding: 40px;}
+  }
